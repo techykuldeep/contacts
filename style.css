@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+    padding: 50px;
+    text-align: center;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.wrapper{
+    position: absolute;
+    display: block;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    height: 90%;
+    padding: 40px 30px;
+    background-color: #fff;
+    box-shadow: 0 0 10px 2px rgba(0,0,0,0.3);
+    overflow:auto;
+}
+
+.header{
+    display: inline-block;
+    width: 100%;
+}
+.header h1{
+    color: #000;
+    float: left;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+.header button{
+    background-color: #fff;
+    color: #000;
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 2px 15px 2px rgba(0,0,0,0.4);
+    font-size: 16px;
+    float: right;
+}
+
+
+.contact-list{
+display: block;
+width: 100%;
+padding: 20px;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+
+.contact-item{
+    margin-top: 10px;
+    padding: 10px;
+    display: inline-block;
+    width: 100%;
+    position: relative;
+    box-shadow: 2px 2px 10px 2px rgba(0,0,0,0.3);
+}
+.contact-item:first-child{
+    margin-top: 0 !important;
+}
+
+.profile{
+    position: absolute;
+    float: left;
+    border-radius: 50%;
+    border: none;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+.profile img{
+    border-radius: 50%;
+    border: none;
+    width: 50px;
+    height: 50px;
+}
+
+.contact-details{
+    width:calc(100% - 50px);
+    float: right;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.name-section{
+    display: inline-block;
+}
+
+.title{
+    font-size: 16px;
+    font-weight: bold;
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.job{
+    font-size: 12px;
+    font-weight: 100;
+    color: #545353;
+    margin-left: 10px;
+}
+
+.address{
+    color: #3e3d3d;
+    font-size: 14;
+    font-weight: 200;
+    margin-top: 5px;
+    text-transform: capitalize;
+}
+
+.details{
+    margin-top: 5px;
+    display: inline-block;
+    width: 100%;
+    text-align: justify;
+    -moz-text-align-last: justify;
+    text-align-last: justify;
+}
+
+.details span{
+ font-size: 14px;
+ font-weight: 400;
+ color: #545353;
+}
